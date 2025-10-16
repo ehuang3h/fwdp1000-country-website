@@ -54,6 +54,10 @@ p {
 
 /* Elements
 --------------------------------------------- */
+ul li {
+    display: inline;
+}
+
 section {
     background-color: #B8DEFF;
     padding: 0 2rem 1.5rem;
@@ -64,3 +68,31 @@ section {
 video { 
     margin: 0.5rem 0;
 }
+
+/*--------------------------------------------------------------
+# START OF LAYOUTS
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+    background-color: blue;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+/*--------------------------------------------------------------
+# END OF LAYOUTS
+--------------------------------------------------------------*/
