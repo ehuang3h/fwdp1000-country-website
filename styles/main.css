@@ -121,7 +121,49 @@ a:active {
 #logo {
     color: #14105C;
     margin: 0 auto;
+    height: fit-content;
 }
 /*--------------------------------------------------------------
 # END OF LAYOUTS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# START OF MEDIA QUERIES
+--------------------------------------------------------------*/
+@media(min-width: 60em) {
+    #menu {
+        left: 0;
+        top: 0;
+        max-width: 15rem;
+        position: fixed;
+        height: 100%;
+        flex-flow: column;
+        padding: 5rem;
+        background-color: #14105C;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #nav-bar {
+        position: static;
+        flex-flow: column;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+
+    #nav-bar li {
+        padding: 1rem 0;
+    }
+
+    #home {
+        display: none;
+    }
+
+    main { 
+        padding-left: 15rem;
+    }
+}
+/*--------------------------------------------------------------
+# END OF MEDIA QUERIES
 --------------------------------------------------------------*/
