@@ -1,3 +1,29 @@
 /* 
     ACTIVITIES.CSS - styles exclusive for ACTIVITIES.HTML
 */
+
+/*--------------------------------------------------------------
+# START OF MEDIA QUERIES
+--------------------------------------------------------------*/
+@media (min-width: 50em) {
+    #content-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 90em) {
+    #content-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 120em) {
+    #content-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/*--------------------------------------------------------------
+# END OF MEDIA QUERIES
+--------------------------------------------------------------*/
