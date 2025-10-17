@@ -125,6 +125,18 @@ a:active {
     margin: 0 auto;
     height: fit-content;
 }
+
+/* Footer
+--------------------------------------------- */
+footer {
+    margin-top: 5rem;
+}
+
+footer p {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
 /*--------------------------------------------------------------
 # END OF LAYOUTS
 --------------------------------------------------------------*/
@@ -163,7 +175,7 @@ a:active {
         display: none;
     }
 
-    main { 
+    main, footer { 
         padding-left: 15rem;
     }
 }
