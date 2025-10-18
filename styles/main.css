@@ -48,12 +48,48 @@ h2 {
 }
 
 p {
-  margin: 0;
+  margin: 0 0 0.75rem;
   max-width: 25rem;
 }
 
 /* Elements
 --------------------------------------------- */
+blockquote {
+  font-weight: 800;
+  font-style: italic;
+   margin: 0;
+   max-width: 25rem;
+}
+
+cite {
+  font-style: normal;
+  font-weight: 400;
+}
+ 
+form {
+  margin-top: 1rem;
+ 
+  max-width: 20rem;
+}
+
+fieldset {
+  margin-top: 0.5rem;
+   background-color: #b8deff;
+}
+
+legend {
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+input {
+  display: block;
+}
+
+textarea {
+  display: block;
+}
+
 ul li {
   display: inline;
 }

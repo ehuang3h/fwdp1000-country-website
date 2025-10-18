@@ -1,3 +1,55 @@
 /* 
     INDEX.CSS - styles exclusive for INDEX.HTML
 */
+
+/*--------------------------------------------------------------
+# START OF STYLES
+--------------------------------------------------------------*/
+#landing-title {
+    font-size: 5rem;
+    text-align: center;
+}
+
+#collage { 
+    margin-bottom: 2rem;
+}
+
+#submit-button {
+    margin-top: 0.5rem;
+}
+
+/*--------------------------------------------------------------
+# END OF STYLES
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# START OF MEDIA QUERIES
+--------------------------------------------------------------*/
+@media(min-width: 60em) {
+    #collage {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    #map {
+        object-fit: cover;
+        height: 100%;
+        grid-column: 1 / span 2;
+		grid-row: 1 / span 2;
+    }
+
+    #island-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    }
+
+    #quote-context {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+}
+/*--------------------------------------------------------------
+# END OF MEDIA QUERIES
+--------------------------------------------------------------*/
