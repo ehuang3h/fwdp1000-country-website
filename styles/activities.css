@@ -3,37 +3,37 @@
 */
 
 #content-grid {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 /*--------------------------------------------------------------
 # START OF MEDIA QUERIES
 --------------------------------------------------------------*/
 @media (min-width: 20em) {
-    #content-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
+  #content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 @media (min-width: 50em) {
-    #content-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 4rem;
-    }
+  #content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
 }
 
 @media (min-width: 90em) {
-    #content-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  #content-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 120em) {
-    #content-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
+  #content-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 /*--------------------------------------------------------------
 # END OF MEDIA QUERIES
