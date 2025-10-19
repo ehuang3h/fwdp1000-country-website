@@ -131,6 +131,19 @@ a:active {
   color: #03121f;
 }
 
+.content-link {
+  color: #3A32D2;
+  padding: 0;
+}
+
+.content-link:visited {
+  color: #3A32D2;
+}
+
+.content-link:hover {
+  color: #67678D;
+}
+
 /*--------------------------------------------------------------
 # START OF LAYOUTS
 --------------------------------------------------------------*/
